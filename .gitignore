@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+
+# Datasets
+datasets/
+car_datasets*/
+data/
+*.zip
+*.tar.gz
+
+# Training outputs
+runs/
+logs/
+*.cache
+
+# Results
+result*/
+*_results/
+detections/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local
+
+# PDF/Docs (generated)
+*.pdf
