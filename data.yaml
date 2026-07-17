@@ -1,0 +1,17 @@
+# YOLO 车辆检测数据集配置
+# 📌 数据集来源: Kaggle - vehicles.v2-release.voc
+# 下载后解压到 datasets/ 目录，运行 preprocess/voc_to_yolo.py 预处理
+
+# 数据集根目录 (相对于项目根目录)
+path: ./datasets
+
+# 训练、验证、测试集
+train: train
+val: valid
+test: test
+
+# 类别数量
+nc: 8
+
+# 类别名称
+names: ['big truck', 'big car', 'bus', 'car', 'mid_truck', 'null', 'small_truck', 'truck']
